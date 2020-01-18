@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #14171a;
+}
+
+.github-link {
+  width: 0px;
+  height: 89px;
+  position: relative;
+  padding-left: 90px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-family: 'Black Ops One', cursive;
+  font-size: 70px;
+  color: #fff;
+  box-shadow: 0 0 10px 1px #07b931;
+  overflow: hidden;
+  -webkit-transition: width .4s ease-in-out;
+  -moz-transition: width .4s ease-in-out;
+  -ms-transition: width .4s ease-in-out;
+  -o-transition: width .4s ease-in-out;
+  transition: width .4s ease-in-out;
+  -webkit-animation: shadow 10s ease-in-out infinite;
+  animation: shadow 10s ease-in-out infinite;
+}
+
+.github-link:hover {
+  width: 485px;
+}
+
+.github-link svg {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 4px;
+  left: 5px;
+  fill: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .github-link {
+    width: 350px;
+    height: 59px;
+    padding-left: 60px;
+    font-size: 50px;
+    line-height: 59px;
+  }
+
+  .github-link:hover {
+    width: 350px;
+  }
+  
+  .github-link svg {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .github-link {
+    width: 280px;
+    font-size: 40px;
+  }
+
+  .github-link:hover {
+    width: 280px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .github-link {
+    width: 245px;
+    font-size: 35px;
+  }
+
+  .github-link:hover {
+    width: 245px;
+  }
+}
+
+@-webkit-keyframes shadow {
+  from {
+    box-shadow: 0 0 10px 1px #0be93f;
+  }
+
+  10% {
+    box-shadow: 0 0 10px 1px #fd5656;
+  }
+
+  30% {
+    box-shadow: 0 0 10px 1px #f7f325;
+  }
+
+  50% {
+    box-shadow: 0 0 10px 1px #0fedfd;
+  }
+
+  70% {
+    box-shadow: 0 0 10px 1px #ff8f10;
+  }
+
+  90% {
+    box-shadow: 0 0 10px 1px #b345fd;
+  }
+
+  to {
+    box-shadow: 0 0 10px 1px #0be93f;
+  }
+}
+
+@keyframes shadow {
+  from {
+    box-shadow: 0 0 10px 1px #07b931;
+  }
+
+  10% {
+    box-shadow: 0 0 10px 1px #fd5656;
+  }
+
+  30% {
+    box-shadow: 0 0 10px 1px #f7f325;
+  }
+
+  50% {
+    box-shadow: 0 0 10px 1px #0fedfd;
+  }
+
+  70% {
+    box-shadow: 0 0 10px 1px #ff8f10;
+  }
+
+  90% {
+    box-shadow: 0 0 10px 1px #b345fd;
+  }
+
+  to {
+    box-shadow: 0 0 10px 1px #07b931;
+  }
+}
